@@ -169,7 +169,7 @@ This work is strictly for education. It was done only on a target authorized thr
 ├── report/
 │   └── W2-PM-FINAL_Penetration_Testing_Report.docx
 ├── screenshots/       (7 screenshots)
-├── outputs/           (theHarvester text outputs)
+|
 └── topology/          (Zenmap topology PDF)
 ```
 
@@ -177,13 +177,13 @@ This work is strictly for education. It was done only on a target authorized thr
 
 # 👤 Author
 
-**FOTSO Eryange Verdiane**
+**FOTSO Verdiane**
 Cybersecurity Intern – Networkwalks
 
-LinkedIn: *(add your profile link here)*
+LinkedIn: *https://www.linkedin.com/in/verdiane-fotso-8b4b1b308/*
 
 ---
 
 ## 📌 Project Information
 
-**Program Name:** Cybersecurity program at Networkwalks | **Week:** 02 | **Repository:** GitHub
+**Program Name:** Cybersecurity program at Networkwalks | **Week:** 02 | **Repository:** [GitHub](https://github.com/ver-di40/NETWORKWALKS-FOTSO-BO84L-WK2-PM1-CYBERSECURITY-LAB-SETUP)
