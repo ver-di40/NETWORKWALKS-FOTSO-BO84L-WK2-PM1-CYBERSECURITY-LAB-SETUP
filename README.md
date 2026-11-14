@@ -74,9 +74,9 @@ theHarvester -d <target-domain> -l 1000 -b baidu
 
 The result changed between two runs. The first run found 3 email strings (only one looked like a real address, the other two were malformed false positives). The second run, saved with `tee`, found nothing. Baidu is a live search engine and does not answer the same way each time, so I kept both screenshots.
 
-![Baidu run 1](screenshots/01-theharvester-baidu-run1.png)
+![Baidu run 1](01-theharvester-baidu-run1.png)
 
-![Baidu run 2](screenshots/02-theharvester-baidu-run2.png)
+![Baidu run 2](02-theharvester-baidu-run2.png)
 
 **Task 2: all sources**
 
@@ -86,9 +86,9 @@ theHarvester -d <target-domain> -l 50 -b all | tee resultat2.txt
 
 This run found **23 hosts** and **2 IP addresses**. The host names (for example `cpanel`, `webmail`, `ftp`, `webdisk`, `autodiscover`) suggest a typical cPanel hosting environment. No emails were found, and several sources returned *Missing API key* errors.
 
-![All sources start](screenshots/03-theharvester-all-sources-start.png)
+![All sources start](03-theharvester-all-sources-start.png)
 
-![All sources results](screenshots/04-theharvester-all-sources-results.png)
+![All sources results](04-theharvester-all-sources-results.png)
 
 ## 2. Network scanning with Zenmap (W2-PM5)
 
@@ -96,15 +96,15 @@ The Wi-Fi I was connected to belongs to my school, so I did not scan it. I creat
 
 I downloaded Nmap with Zenmap for Windows from the official site:
 
-![Nmap download](screenshots/05-nmap-zenmap-download.png)
+![Nmap download](05-nmap-zenmap-download.png)
 
 Then I ran a **Ping scan** on my hotspot subnet (`nmap -sn <my-subnet>`). It checked 256 addresses in about 17 seconds and found **3 live hosts**: the phone sharing the hotspot (gateway), my second phone, and my PC. Nmap showed the MAC address of the two other devices, and did not show it for my own PC (it never displays the MAC of the machine it runs on).
 
-![Zenmap ping scan](screenshots/06-zenmap-ping-scan.png)
+![Zenmap ping scan](06-zenmap-ping-scan.png)
 
 The **Topology** tab shows my PC in the center with the other hosts around it. The topology was also saved as a PDF, as required by the practical.
 
-![Topology](screenshots/07-zenmap-topology.png)
+![Topology](07-zenmap-topology.png)
 
 ---
 
